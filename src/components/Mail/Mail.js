@@ -20,9 +20,6 @@ const Mail = () => {
         <img src={flowers} className={styles.flowers} alt="flowers" />
       </div>
       <form className={styles.interface}>
-        {/* <Input type="text" />
-      <Input type="email" />
-      <Input /> */}
         <Input type="text" placeholder="Name" />
         <Input type="email" placeholder="E-mail" />
         <Textarea type="email" placeholder="Message" />
