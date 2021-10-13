@@ -15,7 +15,6 @@
     max-width: 100%;
     max-height: 270px;
     height: auto;
-    // height: 100%;
     width: 100%;
     border-radius: 20px;
   }
@@ -74,20 +73,6 @@
   // position: absolute;
 }
 
-// .newa {
-//   //   display: -webkit-flex;
-//   text-align: center;
-//   justify-content: center;
-//   width: 92px;
-//   height: 40px;
-//   background-color: rgba(237, 93, 109, 0.1);
-//   color: #ed5d6d;
-//   border-radius: 5px;
-
-//   display: inline-block;
-// }
-
-// @mixin buttonPrimary {
 .buttonPrimary {
   display: inline-block;
   color: white;
@@ -104,10 +89,3 @@
     background-color: rgba(237, 93, 109, 0.8);
   }
 }
-
-// .buttonPrimary {
-//   @include buttonPrimary;
-//   &:hover {
-//     background-color: rgba(237, 93, 109, 0.8);
-//   }
-// }

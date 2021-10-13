@@ -15,7 +15,6 @@ const NewsTable = ({
       </div>
       <div className={styles.newsInfo}>
         <div className={styles.new}>News</div>
-        {/* <div className={styles.newa}>News</div> */}
         <h3>{header}</h3>
         <p>{children}</p>
         {primary && (
