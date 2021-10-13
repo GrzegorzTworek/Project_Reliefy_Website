@@ -12,7 +12,7 @@ const Businesstemplate = () => (
     <section className={styles.business} id="business">
       <img className={styles.eclipse} src={eclipseback} alt="eclipse" />
       <img className={styles.busmain} src={bussines} alt="busmain" />
-      {/* <div className={styles.circleleft} /> */}
+
       {/* <div className={styles.gradien} /> */}
     </section>
   </>
