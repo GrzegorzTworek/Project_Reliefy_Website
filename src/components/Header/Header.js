@@ -9,7 +9,6 @@ const Header = () => (
     <div className={styles.container}>
       <div className={styles.bar}>
         <img src={logo} alt="logo" />
-        {/* <img className={styles.contact} src={contact} alt="contact" /> */}
         <button type="button" className={styles.contact}>
           Contact with us
         </button>
