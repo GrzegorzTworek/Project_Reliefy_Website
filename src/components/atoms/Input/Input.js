@@ -27,7 +27,6 @@ const Input = ({
       />
       <label htmlFor={name} className={styles.inputLabel}>
         {placeholder}
-        {/* {label} */}
       </label>
     </div>
   );
