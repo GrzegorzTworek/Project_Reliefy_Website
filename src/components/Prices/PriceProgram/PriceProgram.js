@@ -51,12 +51,6 @@ const PriceProgram = ({ type, price }) => {
       </p>
       <div>
         <button type="button" className={styles.ButtonPrimaryLight}>
-          {/* <button
-          type="button"
-          className={`${styles.ButtonPrimaryLight} ${
-            type === ProgramType.Premium && styles.ButtonPrimary
-          }`}
-        > */}
           Choose plan
         </button>
       </div>

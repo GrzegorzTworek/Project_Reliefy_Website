@@ -4,7 +4,6 @@ import styles from './News.module.scss';
 import newso from '../../assets/icons/newso.png';
 import newstwo from '../../assets/icons/newstwo.svg';
 import newsthree from '../../assets/icons/newsthree.svg';
-// import newsfour from '../../assets/icons/newsfour.svg';
 import newsf from '../../assets/icons/newsf.png';
 
 const News = () => {
