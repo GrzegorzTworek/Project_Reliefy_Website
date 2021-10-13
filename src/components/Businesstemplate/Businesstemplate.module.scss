@@ -1,0 +1,26 @@
+.business {
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+  .busmain {
+    display: flex;
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    z-index: 80;
+  }
+}
+
+.eclipse {
+  display: flex;
+  position: absolute;
+  opacity: 0.2;
+  filter: blur(50px);
+  max-width: 100%;
+  height: auto;
+  z-index: -10;
+}

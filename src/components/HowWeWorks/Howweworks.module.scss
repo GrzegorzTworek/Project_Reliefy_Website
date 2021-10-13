@@ -1,0 +1,136 @@
+// .works {
+//   max-width: 1300px;
+//   width: 100%;
+//   margin: 70rem auto 0;
+
+//   min-height: 60rem;
+
+//   display: flex;
+
+//   position: relative;
+
+//   justify-content: center;
+// }
+
+// .heart {
+//   display: flex;
+//   max-width: 100%;
+//   height: auto;
+//   position: absolute;
+
+//   z-index: 100;
+
+//   flex: 1;
+
+//   overflow: hidden;
+// }
+
+// .cloud {
+//   display: flex;
+//   max-width: 100%;
+//   height: auto;
+//   position: absolute;
+//   bottom: 7rem;
+// }
+
+// .howweworks {
+//   display: flex;
+
+//   position: absolute;
+
+//   flex: 1;
+// }
+
+// .workseclipse {
+//   display: flex;
+//   max-width: 100%;
+//   height: auto;
+//   position: absolute;
+
+//   opacity: 0.2;
+
+//   filter: blur(50px);
+
+//   z-index: 70;
+// }
+
+.wrapper {
+  // margin-top: 80rem;
+  // top: 20rem;
+  // top: 500px;
+  max-width: 1200px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  margin: 0 auto;
+
+  .imageContainer {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+    img {
+      width: 100%;
+    }
+  }
+
+  & > div {
+    padding: 1rem;
+    flex: 1;
+  }
+
+  // & > .gradinet,
+  // .gradient-center {
+  // 	padding: 0;
+  // }
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+
+  h2 {
+    font-size: 35px;
+    margin-bottom: 1rem;
+  }
+}
+
+// .gradient {
+//   padding: 0;
+//   z-index: -10;
+//   width: 1px;
+//   height: 1px;
+//   border-radius: 50%;
+//   box-shadow: 0px 0px 1000px 200px rgba(255, 188, 196, 0.4);
+//   position: absolute;
+//   // left: 50%;
+//   // top: 50%;
+//   border: none;
+//   top: 100%;
+// }
+
+.gradien {
+  padding: 0;
+  z-index: -10;
+  max-width: 1px;
+  max-height: 1px;
+  border-radius: 50%;
+  // border: transparent;
+  box-shadow: 0px 0px 1000px 200px rgba(255, 188, 196, 0.4);
+  position: absolute;
+  // position: relative;
+  // top: 100%;
+  left: 50%;
+  top: 50%;
+}
+
+.cloud {
+  overflow: hidden;
+  height: auto;
+  width: 100%;
+  position: absolute;
+  // left: 5%;
+  top: 15%;
+  z-index: -10;
+}
