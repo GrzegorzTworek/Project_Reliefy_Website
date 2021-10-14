@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './Header.module.scss';
 import logo from '../../assets/icons/logo.svg';
-// import contact from '../../assets/icons/contact.svg';
 // import Button from '../atoms/Button/Button';
 
 const Header = () => (
