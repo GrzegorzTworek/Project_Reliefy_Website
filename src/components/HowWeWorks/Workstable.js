@@ -12,7 +12,7 @@ import styles from './Workstable.module.scss';
 // const{icon,header,firstly,text} = props;
 const Workstable = ({ firstly = false, icon, header, children }) => {
   return (
-    <div className={`${styles.howWeWork} ${firstly && styles.primary}`}>
+    <div className={`${styles.howWeWork} ${firstly && styles.first}`}>
       <div className={styles.imgContainer}>
         <img src={icon} alt="icon" />
       </div>

@@ -1,13 +1,7 @@
 import React from 'react';
 import styles from './NewsTable.module.scss';
 
-const NewsTable = ({
-  //   imageSrc = 'https://dummyimage.com/640x400/808080/bbb',
-  imageSrc,
-  children,
-  primary = false,
-  header,
-}) => {
+const NewsTable = ({ imageSrc, children, primary = false, header }) => {
   return (
     <article className={`${styles.newsComponent} ${primary && styles.newsComponentRow}`}>
       <div className={styles.imgContainer}>

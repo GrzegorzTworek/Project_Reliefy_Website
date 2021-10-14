@@ -21,7 +21,7 @@ const Mail = () => {
       </div>
       <form className={styles.interface}>
         <Input type="text" placeholder="Name" />
-        <Input type="email" placeholder="E-mail" />
+        <Input type="text" placeholder="E-mail" />
         <Textarea type="email" placeholder="Message" />
 
         <div className={styles.buttonContainer}>
@@ -30,8 +30,8 @@ const Mail = () => {
           </button>
         </div>
       </form>
-      <div className={styles.gradient} />
-      <div className={styles.gradienttwo} />
+      <div className={styles.circle} />
+      <div className={styles.circletwo} />
     </section>
   );
 };

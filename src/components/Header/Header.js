@@ -18,7 +18,7 @@ const Header = () => (
         <a href="#business">Business</a>
         <a href="#blog">Blog</a>
         <a href="#pricing">Pricing</a>
-        <a href="#contact">Contact</a>
+        <a href="#mail">Contact</a>
       </div>
       <div className={styles.login}>
         <a href="/" className={styles.signin}>

@@ -24,7 +24,7 @@ const Howweworks = () => {
         })}
       </div>
 
-      {/* <div className={styles.gradien} /> */}
+      {/* <div className={styles.circle} /> */}
     </section>
   );
 };
