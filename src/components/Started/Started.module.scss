@@ -18,3 +18,18 @@
     color: rgba(45, 67, 121, 0.4);
   }
 }
+
+@media (max-width: 900px) {
+  .start {
+    margin-bottom: 3rem;
+    // min-height: 350px;
+    margin-top: 7rem;
+    h1 {
+      font-size: 32px;
+    }
+
+    p {
+      font-size: 0.9rem;
+    }
+  }
+}

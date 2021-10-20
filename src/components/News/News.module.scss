@@ -10,3 +10,9 @@
   //   flex: 1;
   display: flex;
 }
+
+@media (max-width: 900px) {
+  .newsRowContainer {
+    flex-direction: column;
+  }
+}

@@ -92,3 +92,38 @@
     text-decoration: underline;
   }
 }
+
+@media (max-width: 900px) {
+  .info {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h2 {
+      font-size: 1rem;
+    }
+  }
+  .reliefy {
+    p {
+      margin: 1rem 0;
+      line-height: 1.5rem;
+      font-size: 0.8rem;
+    }
+  }
+
+  .company,
+  .website {
+    p {
+      line-height: 1rem;
+      font-size: 0.8rem;
+    }
+
+    a {
+      line-height: 1.5rem;
+      font-size: 0.8rem;
+    }
+  }
+
+  .copyright {
+    font-size: 0.8rem;
+  }
+}

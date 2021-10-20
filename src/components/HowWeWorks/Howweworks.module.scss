@@ -120,3 +120,16 @@
   top: 15%;
   z-index: -10;
 }
+
+@media (max-width: 900px) {
+  .wrapper {
+    .imageContainer {
+      display: none;
+    }
+  }
+  .dataContainer {
+    h2 {
+      font-size: 25px;
+    }
+  }
+}

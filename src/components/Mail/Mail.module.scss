@@ -2,11 +2,12 @@
   border: 1px solid rgba(45, 67, 121, 0.4);
   border-radius: 20px;
   max-width: 1200px;
-  height: 575px;
+  // height: 575px;
+  min-height: 575px;
+  height: 100%;
   width: 100%;
   margin: 4rem auto;
   position: relative;
-  padding: 2rem;
   display: flex;
   padding: 4rem;
 }
@@ -109,4 +110,29 @@
   left: 100%;
   // left: 50%;
   // top: 50%;
+}
+
+@media (max-width: 900px) {
+  .mailWrapper {
+    flex-direction: column;
+    padding: 2rem;
+  }
+  .description {
+    h2 {
+      font-size: 2.2rem;
+    }
+
+    p {
+      margin-top: 0.5rem;
+      line-height: 1rem;
+      font-size: 0.8rem;
+    }
+
+    .cloud {
+      display: none;
+    }
+    .flowers {
+      display: none;
+    }
+  }
 }
