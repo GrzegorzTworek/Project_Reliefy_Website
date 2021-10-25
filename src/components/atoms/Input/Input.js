@@ -13,7 +13,6 @@ const Input = ({
 }) => {
   return (
     <div className={styles.inputDiv}>
-      {type === 'tel' && <div className="phoneNumber">+48</div>}
       <input
         type={type}
         placeholder=""
